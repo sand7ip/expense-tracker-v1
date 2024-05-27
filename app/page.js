@@ -147,7 +147,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center sm:p-4 p-4">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono">
-        <h1 className="text-2xl p-4 text-center"> Add Income</h1>
+        <h1 className="text-2xl p-4 text-center justify"> Add Income</h1>
         <div className="bg-slate-300 p-4 rounded-lg">
         <form className="grid grid-cols-6 items-center text-black">
           
@@ -185,7 +185,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
         <h1 className="text-2xl p-4 text-center"> Add Expense</h1>
         <div className="bg-slate-300 p-4 rounded-lg">
-          <form className="grid grid-cols-6 items-center text-black">
+          <form className="grid grid-cols-6 items-center text-black justify">
             
             <input
               className="col-span-1 p-3 border" 
@@ -211,6 +211,7 @@ export default function Home() {
                     <option value="Vacation">Vacation</option>
                     <option value="Investment">Investment</option>
                     <option value="Savings">Savings</option>
+                    <option value="Savings">Grocery</option>
                     <option value="Others">Others</option>
                     {}
             </select>
